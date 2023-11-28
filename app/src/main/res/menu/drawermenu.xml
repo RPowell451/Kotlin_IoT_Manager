@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="@string/home"/>
+    <item android:id="@+id/addcamera" android:title="@string/addcamera"/>
+    <item android:id="@+id/cameras" android:title="@string/cameras"/>
+    <item android:id="@+id/contact" android:title="@string/contact"/>
+    <item android:id="@+id/log_out" android:title="@string/log_out"/>
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731125634981",
+    "project_id": "iot-manager-4924c",
+    "storage_bucket": "iot-manager-4924c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731125634981:android:fb1c52a383b97c12abba4c",
+        "android_client_info": {
+          "package_name": "com.cc.iot_manager_kot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaZESEGcEx0GYNjkBrlPGHTnZdl2E644Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
