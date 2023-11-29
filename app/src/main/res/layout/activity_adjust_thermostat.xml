@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Adjust Thermostat"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:max="100"
+        android:progress="50"
+        android:rotation="270"
+        android:progressTint="#2196F3"
+        android:thumbTint="#2196F3" />
+
+    <Button
+        android:id="@+id/increaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:text="Increase"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/decreaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/increaseButton"
+        android:layout_centerHorizontal="true"
+        android:text="Decrease"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+
