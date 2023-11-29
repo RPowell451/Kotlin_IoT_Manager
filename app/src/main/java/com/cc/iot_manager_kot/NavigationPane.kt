@@ -69,6 +69,10 @@ open class NavigationPane: AppCompatActivity() {
                     val marketStatusIntent = Intent(this, UserCameras::class.java)
                     startActivity(marketStatusIntent)
                 }
+                R.id.dogfeeder -> {
+                    val dogFeederIntent = Intent(this, DogFeeder::class.java)
+                    startActivity(dogFeederIntent)
+                }
                 R.id.contact -> {
                     Toast.makeText(this, "Filler Text", Toast.LENGTH_LONG).show()
                 }
