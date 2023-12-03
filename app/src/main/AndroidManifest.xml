@@ -16,6 +16,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".DogFeeder"
+            android:exported="false" />
+
+        <activity
             android:name=".ViewCamera"
             android:exported="false" />
         <activity
@@ -31,7 +35,7 @@
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Base.Theme.IoT_Manager_Kot_Splash">
-            >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
