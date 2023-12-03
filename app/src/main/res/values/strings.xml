@@ -27,4 +27,7 @@
     <string name="e_mail">E-Mail</string>
     <string name="add_feeding_time">Add Feeding Time</string>
     <string name="dog_feeder">Dog Feeder</string>
+    <string name="user_cameras">User Cameras</string>
+    <string name="camera_stream">Camera Stream</string>
+    <string name="welcome_text">IoT Manager V1.0</string>
 </resources>

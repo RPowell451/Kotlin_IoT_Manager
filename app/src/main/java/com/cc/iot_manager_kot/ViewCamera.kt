@@ -26,7 +26,7 @@ class ViewCamera : NavigationPane() {
         webView.clearCache(true)
         webView.clearHistory()
 
-        val videoURL = "http://" + DbOpps.IPAddress + ":" + DbOpps.portNumber + "/video_feed"
+        val videoURL = "http://" + DbOpps.IPAddress + ":" + DbOpps.portNumber + "/video"
         DbOpps.clearCameraSettings()
         webView.loadUrl(videoURL)
     }

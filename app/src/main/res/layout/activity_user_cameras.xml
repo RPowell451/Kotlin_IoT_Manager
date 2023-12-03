@@ -8,21 +8,34 @@
     android:layout_height="match_parent"
     tools:context=".UserCameras">
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="8dp"/>
-</RelativeLayout>
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:text="@string/user_cameras"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_width="166dp"
+            android:layout_height="69dp"
+            android:textSize="24sp"
+            android:textColor="#000000" android:fontFamily="@font/muli_bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleTextView"
+            android:padding="8dp"/>
+    </RelativeLayout>
 
     <include layout="@layout/navigation_pane"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
+
 
     <!-- res/layout/activity_main.xml -->
     <!--     <?xml version="1.0" encoding="utf-8"?>

@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
+import androidx.drawerlayout.widget.DrawerLayout
 import com.google.firebase.auth.FirebaseAuth
 import java.text.SimpleDateFormat
 import java.util.*
@@ -36,6 +37,10 @@ class DogFeeder : NavigationPane() {
         listViewTimes.setOnItemClickListener {_, _, position, _ ->
             showDeleteConfirmationDialog(position)
         }
+
+        val mDrawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+        onCreateDrawer(mDrawerLayout)
+
     }
 
     private fun showTimePickerDialog() {

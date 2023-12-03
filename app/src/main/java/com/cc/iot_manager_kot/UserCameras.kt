@@ -38,7 +38,7 @@ class UserCameras : NavigationPane() {
 
                     //add camera name to list
                     println(cameraName)
-                    dataList.add(MyData(cameraName, "Text2-3", "Option 3"))
+                    dataList.add(MyData(cameraName, "---", "Option 3"))
                 }
                 val adapter = MyAdapter(this@UserCameras, dataList)
                 recyclerView.adapter = adapter

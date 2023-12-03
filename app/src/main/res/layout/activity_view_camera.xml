@@ -8,20 +8,32 @@
     android:layout_height="match_parent"
     tools:context=".ViewCamera">
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <!-- Your other UI elements go here -->
+        <!-- Your other UI elements go here -->
 
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:text="@string/camera_stream"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_width="186dp"
+            android:layout_height="69dp"
+            android:textSize="24sp"
+            android:textColor="#000000" android:fontFamily="@font/muli_bold" />
 
-<include layout="@layout/navigation_pane"/>
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <include layout="@layout/navigation_pane"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
