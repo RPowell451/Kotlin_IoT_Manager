@@ -1,5 +1,6 @@
 # Kotlin_IoT_Manager
-IoT manager written in Kotlin.
+IoT manager written in Kotlin.<br>
+CSCI 4320 Group Project
 
 Credits:<br>
 Webcam IoT created by Robett Powell.<br>
