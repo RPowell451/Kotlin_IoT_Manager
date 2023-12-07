@@ -3,7 +3,7 @@ IoT manager written in Kotlin.<br>
 CSCI 4320 Group Project
 
 Credits:<br>
-Webcam IoT created by Robett Powell.<br>
+Iot manager app and webcam IoT created by Robett Powell.<br>
 Pet Feeder IoT created by Dondré Banks Overton.<br>
 Health Monitoriing IoT created by Allen Kim.<br>
 Thermostat IoT created by Monte Cameron.<br>
